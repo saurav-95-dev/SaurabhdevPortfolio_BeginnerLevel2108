@@ -1,0 +1,1304 @@
+body {
+    font-family: "roboto";
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89787.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header .container {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: rgba(68, 68, 68, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card h2,
+.card h3 {
+    margin-top: 0;
+}
+
+.card:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover img {
+    transform: scale(1.2);
+}
+
+.profile-links a {
+    color: #fff;
+    text-decoration: none;
+ 
+    transition: color 0.3s ease;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.profile-links a:hover {
+    color: #007bff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+    .social-links,
+    .profile-links {
+        margin-top: 20px;
+    }
+
+    .social-links {
+       
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+  .footer-content {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  
+  .social-links,
+  .profile-links {
+      margin-top: 20px;
+  }
+
+  .social-links {
+     
+      margin-left: 20px;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .profile-links {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width: 426px) {
+  .profile-links {
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+/* Existing CSS code */
+
+.footer {
+    background-color: black; /* Add background color to the footer */
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Existing CSS code */
+/* CSS */
+#contact {
+    text-align: left; /* Align content to the left */
+  }
+  
+  #contact .container {
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center-align container */
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    margin-top: 8px;
+    width: 100%; /* Make inputs and textarea full width */
+    padding: 10px; /* Add padding for better spacing */
+    margin-bottom: 15px; /* Add space between inputs */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  #contact-form textarea {
+    height: 150px; /* Set textarea height */
+  }
+  
+  #contact-form button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  #contact-form button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  /* CSS */
+
+/* Default styles */
+
+  
+
+  /* Default styles */
+
+
+/* Media query for mobile devices */
+/* Default styles */
+
+
+/* Media query for mobile devices */
+/* Default styles */
+
+
+/* Media query for small screens */
+/* Default styles */
+
+
+/* Media query for small screens */
+/* Default styles */
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 90%; /* Adjusted width */
+    max-width: 600px;
+    margin: 0 auto 20px; /* Added margin */
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    width: 80%; /* Adjusted width for smaller screens */
+  }
+}
+.skill {
+    margin-bottom: 20px; /* Add space between skills */
+  }
+  
+  .skill h3 {
+    margin-top: 10px; /* Add space above skill name */
+  }
+  
+  .skill img {
+    width: 50px; /* Adjust logo size as needed */
+    height: 50px;
+    margin-top: 10px; /* Add space between skill name and logo */
+  }
+  
+  .skill p {
+    margin-top: 10px; /* Add space between logo and description */
+  }
+ .container h3 {
+margin-top: 10px;
+
+}  
+
+.batch {
+    margin-bottom: 20px; /* Add space between batches */
+  }
+  
+  .batch h3 {
+    margin-top: 10px; /* Add space above batch title */
+  }
+  
+  .batch img {
+    width: 100px; /* Adjust image size as needed */
+    height: 100px;
+    margin-top: 10px; /* Add space between batch title and image */
+  }
+  
+  .batch p {
+    margin-top: 10px; /* Add space between image and description */
+  }
+  .batch button {
+    background-color: #e2ba0b; /* Button background color */
+    color: #0d0d0d; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .batch button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  #contact {
+    text-align: center; /* Align content to the center */
+  }
+  
+  #contact h2 {
+    margin-bottom: 15px; /* Add space below the heading */
+  }
+  #projects {
+    margin-top: 20px; /* Adjust the value as needed */
+  }
+
+/* Add these styles to your existing CSS file */
+
+/* Payment Section */
+#upi-payment {
+  margin-top: 15px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.payment-content {
+  margin-bottom: 20px;
+}
+
+.payment-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.payment-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-message {
+  height: 100px;
+}
+
+.payment-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.payment-button:hover {
+  background-color: #0056b3;
+}
+
+.qr-code {
+  text-align: center;
+}
+
+.payment-details {
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.payment-detail {
+  margin-bottom: 10px;
+}
+
+.payment-value {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.payment-btn {
+  background-color: #ffb820;
+  color: rgb(38, 37, 37);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.qr-code-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.payment-details {
+  margin-top: 20px;
+}
+
+.details-title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.textarea-field {
+  height: 100px;
+}
+
+.file-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-file {
+  display: none;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.file-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-file {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#image-preview {
+  margin-top: 10px;
+}
+
+#image-preview img {
+  max-width: 100%;
+  max-height: 200px;
+  margin-top: 10px;
+}
+
+
+.remove-btn:hover {
+  background-color: #d32f2f;
+}
+
+
+
+.remove-btn:hover {
+  background-color: #d32f2f;
+}
+#qr-code-img {
+  max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Ensure the image is displayed as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+/* Default styling for the remove button container */
+
+
+.remove-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  display: block; /* Ensure the button is displayed as a block element */
+  margin: 0 auto; /* Center the button horizontally */
+}
+
+.remove-btn:hover {
+  background-color: #d32f2f;
+}
+/* Media query for screens smaller than 680px */
+.resume{
+  color: white;
+}
+
+/* Updated CSS for the project card */
+
+.project {
+  background-color: #fff; /* Change background color to white */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  padding: 20px; /* Add padding */
+  margin-bottom: 20px; /* Add margin between cards */
+}
+
+.project h3 {
+  color: #333; /* Change text color to dark */
+  margin-top: 10px; /* Add space above project title */
+}
+
+.project img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Add border radius to images */
+  margin-top: 10px; /* Add space above images */
+}
+
+.project p {
+  color: #666; /* Change text color to slightly darker gray */
+  margin-top: 10px; /* Add space between image and description */
+}
+
+.project a {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Add padding */
+  border-radius: 5px; /* Add border radius */
+  display: inline-block; /* Ensure button behaves as block element */
+  margin-top: 10px; /* Add space above button */
+  transition: background-color 0.3s; /* Add transition effect */
+}
+
+.project a:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Updated CSS for the project card */
+
+.project {
+  background-color: #fff; /* Change background color to white */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  padding: 20px; /* Add padding */
+  margin-bottom: 20px; /* Add margin between cards */
+  border: 2px solid #ff7300; /* Add border with primary color */
+}
+
+.project h3 {
+  color: #2f2f2f; /* Change text color to primary color */
+  margin-top: 10px; /* Add space above project title */
+}
+
+.project img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Add border radius to images */
+  margin-top: 10px; /* Add space above images */
+  border: 1px solid #ddd; /* Add border for images */
+}
+
+.project p {
+  color: #666; /* Change text color to slightly darker gray */
+  margin-top: 10px; /* Add space between image and description */
+}
+
+.project a {
+  background-color: #f79125; /* Button background color */
+  color: #191717; /* Button text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Add padding */
+  border-radius: 5px; /* Add border radius */
+  display: inline-block; /* Ensure button behaves as block element */
+  margin-top: 10px; /* Add space above button */
+  transition: background-color 0.3s; /* Add transition effect */
+}
+
+.project a:hover {
+  background-color: #1d80ea; /* Change background color on hover */
+}
+/* Updated CSS for the "Visit my Github" button */
+
+/* CSS for the "Visit my Github" button */
+.github-button {
+  background-color: #f99035; /* GitHub dark gray */
+  color: #0f0e0e; /* White text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  font-size: 16px; /* Increase font size */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  margin-bottom: 15px;
+}
+
+.github-button:hover {
+  background-color: #1f6feb; /* Darker gray on hover */
+}
+/* CSS for the Skills card */
+#skills .skill {
+  margin-bottom: 20px; /* Add margin between skills */
+}
+
+#skills .skill-box {
+  border: 2px solid #ff7b00; /* Add border around each skill box */
+  border-radius: 10px; /* Add rounded corners to the border */
+  padding: 20px; /* Add padding inside the border */
+  display: flex; /* Arrange items in a row */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+}
+
+#skills .skill-box img {
+  width: 80px; /* Adjust width of skill logos */
+  margin-top: 20px; /* Add margin between text and image */
+}
+
+#skills .skill-details {
+  text-align: center; /* Center text within the skill box */
+}
+
+#skills .skill-details h3 {
+  margin-bottom: 10px; /* Add margin below skill names */
+  color: #343a40; /* Dark text color */
+}
+
+#skills .skill-details p {
+  color: #6c757d; /* Medium gray text color */
+}
+
+#skills .skill-details img {
+  height:80px;
+
+}
+#education .container img{
+  height: 90px;
+}
+#leetcode .container img{
+  height: 60px;
+  margin-bottom: 5px;
+  margin-top: 6px;
+  border-radius: 8px;
+  
+}
+#leetcode .container .batch-1 .batch-box img{
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  margin-left: 10px;
+  
+}
+@media screen and (max-width: 426px) {
+  #leetcode .container .batch .batch-box img {
+    max-width: 270px; /* Adjust width of LeetCode images for small screens */
+    height: 85px; /* Maintain aspect ratio */
+    margin: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 426px) {
+  #leetcode .container .batch-1 .batch-box img{
+    height: 190px;
+    max-width: 180px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+}
+@media screen and (max-width: 426px) {
+  #leetcode .container .batch-2 .batch-box img{
+    height: 170px;
+    max-width: 180px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+}
+
+
+#leetcode .container .batch-1{
+
+  margin-bottom: 18px;
+  
+ 
+}
+#leetcode .container .batch-2 .batch-box img{
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  margin-left: 10px;
+  
+}
+#leetcode .container .batch img{
+  height: 125px;
+  width: 600px;
+  border-radius: 18px;
+  
+}
+/* CSS for the LeetCode card */
+#leetcode .batch {
+  margin-bottom: 20px; /* Add margin between batches */
+}
+
+#leetcode .batch-box {
+  border: 2px solid #fd8b00; /* Add border around each batch box */
+  border-radius: 10px; /* Add rounded corners to the border */
+  padding: 20px; /* Add padding inside the border */
+  display: flex; /* Arrange items in a row */
+  align-items: center; /* Center items vertically */
+}
+
+#leetcode .batch-box img {
+  width: 70px; /* Adjust width of batch images */
+  margin-right: 20px; /* Add margin between image and text */
+}
+
+#leetcode .batch-details {
+  flex: 1; /* Take up remaining space */
+}
+
+#leetcode .batch-details h3 {
+  margin-bottom: 10px; /* Add margin below batch titles */
+  color: #343a40; /* Dark text color */
+}
+
+#leetcode .batch-details p {
+  color: #6c757d; /* Medium gray text color */
+}
+
+/* CSS for the Achievement & Certification card */
+#Achievement_Certification .certification {
+  margin-bottom: 20px; /* Add margin between certifications */
+}
+
+#Achievement_Certification .certification-box {
+  border: 2px solid #ff8400; /* Add border around each certification box */
+  border-radius: 10px; /* Add rounded corners to the border */
+  padding: 20px; /* Add padding inside the border */
+  display: flex; /* Arrange items in a row */
+  align-items: center; /* Center items vertically */
+}
+#Achievement_Certification .certification .certification-box .certification-details img{
+  width: 300px;
+  border-radius: 8px;
+}
+
+#Achievement_Certification .certification-details {
+  flex: 1;
+  align-items: center; /* Take up remaining space */
+}
+
+#Achievement_Certification .certification-details h3 {
+  margin-bottom: 10px; /* Add margin below certification titles */
+  color: #343a40; /* Dark text color */
+}
+
+#Achievement_Certification .certification-details p {
+  color: #6c757d; /* Medium gray text color */
+}
+
+/* CSS for the Education card */
+/* CSS for the Education card */
+/* CSS for the Education card */
+.education-card {
+  border: 2px solid #ab6829; /* Add border around the card */
+  border-radius: 10px; /* Add rounded corners to the border */
+  padding: 20px; /* Add padding inside the border */
+  margin: 15px; /* Add margin around the card */
+}
+
+.education-card h2 {
+  margin-bottom: 20px; /* Add margin below the section title */
+  color: #343a40; /* Dark text color */
+}
+
+.education-details p {
+  margin-bottom: 10px; /* Add margin below each education detail */
+  color: #6c757d; /* Medium gray text color */
+}
+/* CSS for the Hobbies card */
+.hobbies-card {
+  border: 2px solid #ab6829; /* Add border around the card */
+  border-radius: 10px; /* Add rounded corners to the border */
+  padding: 20px; /* Add padding inside the border */
+  margin: 20px; /* Add margin around the card */
+}
+
+.hobbies-card h2 {
+  margin-bottom: 20px; /* Add margin below the section title */
+  color: #343a40; /* Dark text color */
+}
+
+.hobbies-details p {
+  margin-bottom: 10px; /* Add margin below each hobby detail */
+  color: #6c757d; /* Medium gray text color */
+}
+/* CSS for the LeetCode card */
+
+#leetcode .batch {
+  margin-bottom: 20px; /* Add margin between batches */
+}
+
+#leetcode .batch-box {
+  border: 2px solid #fd8b00; /* Add border around each batch box */
+  border-radius: 10px; /* Add rounded corners to the border */
+  padding: 20px; /* Add padding inside the border */
+  display: flex; /* Arrange items in a row */
+  align-items: center; /* Center items vertically */
+}
+
+#leetcode .batch-box img {
+  max-width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add margin between image and text */
+}
+
+#leetcode .batch-details {
+  flex: 1; /* Take up remaining space */
+}
+
+#leetcode .batch-details h3 {
+  margin-bottom: 10px; /* Add margin below batch titles */
+  color: #343a40; /* Dark text color */
+}
+
+#leetcode .batch-details p {
+  color: #6c757d; /* Medium gray text color */
+}
+@media screen and (max-width: 400px) {
+  #Achievement_Certification .certification-box img {
+    max-width: 100px; /* Adjust width of certification images for small screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+/* CSS for the LeetCode card */
+
+@media screen and (max-width: 200px) {
+  #leetcode .batch-box img {
+    max-width: 100px; /* Adjust width of LeetCode images for small screens */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #leetcode .container .batch img {
+    width: 100%; /* Adjust width to occupy 90% of the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+    height: 75px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #leetcode .container .batch img {
+    width: 100%; /* Adjust width to occupy 90% of the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+    
+  }
+}
+@media screen and (max-width: 428px) {
+  #leetcode .container .batch img {
+    width: 100%; /* Adjust width to occupy 90% of the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+    height: 85px;
+  }
+}
+@media screen and (max-width: 460px) {
+  #leetcode .container .batch img {
+    width: 100%; /* Adjust width to occupy 90% of the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+    height: 95px;
+  }
+}
+@media screen and (max-width: 370px) {
+  #leetcode .container .batch img {
+    width: 100%; /* Adjust width to occupy 90% of the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+    height: 55px;
+  }
+}
+@media screen and (max-width: 461px) {
+  #leetcode .container .batch img {
+    width: 100%; /* Adjust width to occupy 90% of the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+    height: 95px;
+  }
+}
+@media screen and (max-width: 430px) {
+  #leetcode .container .batch img {
+    width: 100%; /* Adjust width to occupy 90% of the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+    height: 90px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .logo {
+    margin-left: 20px; /* Adjust margin for the logo container */
+  }
+}
+@media screen and (max-width: 426px) {
+  #leetcode .container .batch-1 .batch-box img,
+  #leetcode .container .batch-2 .batch-box img {
+    width: 60%; /* Adjust width to occupy 90% of the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+  }
+}
+@media screen and (max-width: 426px) {
+  #leetcode .container .batch-1 .batch-box img,
+  #leetcode .container .batch-2 .batch-box img {
+    width: 100%; /* Adjust width to occupy 90% of the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin-left: auto; /* Set left margin to auto */
+    margin-right: auto; /* Set right margin to auto */
+    height: 180px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #leetcode .container .batch-1 .batch-box img,
+  #leetcode .container .batch-2 .batch-box img {
+    width: 100%; /* Adjust width to occupy 90% of the container */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin-left: auto; /* Set left margin to auto */
+    margin-right: auto; /* Set right margin to auto */
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #leetcode .container .batch-1,
+  #leetcode .container .batch-2 {
+    padding: 0 10px; /* Adjust padding to add equal spacing on both sides */
+  }
+}
+
+/* CSS for the logo and name in the footer */
+/* CSS for the certificates images */
+
+
+/* CSS for the logo and name in the footer */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px; /* Add margin to separate logo from name */
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 1.2rem;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .logo,
+  .logo h3 {
+    margin: 0 auto; /* Remove left margin */
+  }
+}
+@media screen and (max-width: 426px) {
+  .footer-content {
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .logo,
+  .logo h3 {
+    margin: 0 auto; /* Remove left margin */
+  }
+}
+
+
+/* CSS for the certificates images */
+
+/* CSS for the certificates images */
+/* CSS for the certificates images */
+@media screen and (max-width: 426px) {
+  #Achievement_Certification .certification-box img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 8px; /* Add border radius */
+  }
+}
+/*................................................*/
+
+/* CSS for center-aligning input bars in contact card and payment section */
+@media screen and (max-width: 426px) {
+  /* Center-align input bars in contact card */
+  #contact-form input,
+  #contact-form textarea {
+    width: calc(100% - 20px); /* Adjust width to leave equal space on left and right */
+    margin-left: 1px; /* Add left margin */
+    margin-right: 40px; /* Add right margin */
+  }
+
+  /* Center-align payment section */
+  .payment-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* Center-align the payment button */
+  #contact-form button,
+  .payment-button {
+    width: calc(100% - 20px); /* Adjust width to leave equal space on left and right */
+    margin-left: 10px; /* Add left margin */
+    margin-right: 10px; /* Add right margin */
+  }
+}
+
+/* CSS for center-aligning input bars in payment section */
+/* CSS for center-aligning input bars in payment section */
+@media screen and (max-width: 426px) {
+  /* Center-align input bars in payment section */
+  #payment-details-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust width of input bars */
+  #payment-details-form .input-field,
+  #payment-details-form .textarea-field {
+    width: calc(100% - 40px); /* Adjust width to leave equal space on left and right */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+
+  /* Adjust width of buttons */
+  #payment-details-form .remove-btn,
+  #payment-details-form .submit-btn {
+    width: calc(60% - 40px); /* Adjust width to leave equal space on left and right */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+}
+/* CSS for center-aligning input bars in payment section */
+@media screen and (min-width: 427px) and (max-width: 720px) {
+  /* Center-align input bars in payment section */
+  #payment-details-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust width of input bars */
+  #payment-details-form .input-field,
+  #payment-details-form .textarea-field {
+    width: calc(100% - 40px); /* Adjust width to leave equal space on left and right */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+
+  /* Adjust width of buttons */
+  #payment-details-form .remove-btn,
+  #payment-details-form .submit-btn {
+    width: calc(100% - 40px); /* Adjust width to leave equal space on left and right */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+}
+
+/* Additional media queries for different screen sizes */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for larger screens if needed */
+}
+
+/* Add more media queries as needed */
+
+/* CSS for center-aligning input bars in contact card */
+@media screen and (min-width: 427px) and (max-width: 720px) {
+  /* Center-align input bars in contact card */
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust width of input bars */
+  #contact-form input,
+  #contact-form textarea {
+    width: calc(100% - 40px); /* Adjust width to leave equal space on left and right */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+
+  /* Adjust width of buttons */
+  #contact-form button {
+    width: calc(100% - 40px); /* Adjust width to leave equal space on left and right */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+}
+
+/* Additional media queries for different screen sizes */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for larger screens if needed */
+}
+
+/* Add more media queries as needed */
+/* CSS for center-aligning input bars in payment card and contact card */
+@media screen and (min-width: 769px) {
+  /* Center-align input bars in payment card */
+  #payment-details-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust width of input bars in payment card */
+  #payment-details-form input,
+  #payment-details-form textarea {
+    width: calc(100% - 40px); /* Adjust width to leave equal space on left and right */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+
+  /* Adjust width of buttons in payment card */
+  #payment-details-form button {
+    width: calc(60% - 40px); /* Adjust width to leave equal space on left and right */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+
+  /* Center-align input bars in contact card */
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust width of input bars in contact card */
+  #contact-form input,
+  #contact-form textarea {
+    width: calc(100% - 40px); /* Adjust width to leave equal space on left and right */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+
+  /* Adjust width of buttons in contact card */
+  #contact-form button {
+    width: calc(60% - 40px); /* Adjust width to leave equal space on left and right */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
+}
+
+/* Additional media queries for different screen sizes */
+@media screen and (max-width: 1024px) {
+  /* Adjust styles for screens with smaller widths */
+}
+
+/* Add more media queries as needed */
+/*............................................................
+
+/* Media queries for small screens */
+
+/* For screens up to 480px */
+@media screen and (max-width: 480px) {
+  footer .footer-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .footer-nav a {
+    margin: 10px 0;
+  }
+}
+
+/* For screens between 481px and 767px */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  footer .footer-nav {
+    flex-wrap: wrap;
+  }
+
+  footer .footer-nav a {
+    margin: 10px;
+  }
+}
+
+/* For screens between 768px and 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer .footer-nav {
+    justify-content: center;
+  }
+}
+
+/* Add more media queries as needed */
+/* Media queries for small screens */
+
+/* For screens up to 480px */
+@media screen and (max-width: 426px) {
+  footer .footer-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .footer-nav a {
+    margin: 10px 0;
+  }
+
+  /* Adjust margin for profile links */
+  footer .profile-links {
+    margin-left: 0; /* Reset margin */
+    margin-right: 0; /* Reset margin */
+  }
+}
+
+/* Media query for screens between 400px to 427px */
+@media screen and (min-width: 400px) and (max-width: 427px) {
+  /* Adjust margin for profile links */
+  footer .profile-links {
+    margin-left: 10px; /* Example margin adjustment */
+    margin-right: 10px; /* Example margin adjustment */
+  }
+}
+
