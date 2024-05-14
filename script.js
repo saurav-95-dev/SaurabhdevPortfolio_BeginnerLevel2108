@@ -103,4 +103,12 @@ function showQRCode() {
   }
   
   
-  
+  document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('intro-video');
+    var playButton = document.querySelector('.play-button');
+    
+    playButton.addEventListener('click', function() {
+        video.play();
+        playButton.style.display = 'none'; // Hide the play button once playback starts
+    });
+});
