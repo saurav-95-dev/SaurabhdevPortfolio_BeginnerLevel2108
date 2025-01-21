@@ -5,7 +5,7 @@
 
 
 #### PROJECT : 
-TIC TAC TOE GAME
+Plane Javascript Portfolio
 
 #### ACKNOWLEDGEMENTS :
 NONE 
