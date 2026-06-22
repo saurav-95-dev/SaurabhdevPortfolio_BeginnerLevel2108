@@ -10,23 +10,43 @@
   <div class="center-content">
     <header>
       <div class="container">
-        <h1>Saurabh Dev</h1>
-        <h3 style="color: white;"><a href="https://drive.google.com/file/d/1cOPRqCosx7qi_a9zznP_NhNADfoPNgmD/view?usp=sharing" style="color: white;">My Resume</a></h3>
-        <img src="2889b0a2-8df6-4791-93dc-2b2ae235be7e.jpg" alt="Profile Picture">
+        <h1>Nimmi's Kitchen</h1>
+        <h3 class="whatsapp-link"><a href="https://wa.me/7985665273">Connect via Whatsapp</a></h3>
+        <img src="/Users/saurabhdev/Building-Nimmi's Kitchen/Beige Orange Circle Catering Service Logo.png" alt="Profile Picture">
       </div>
     </header>
 
     <nav>
+      <!-- ===== Kitchen Intro Video Banner ===== -->
+        <div class="intro-video-banner">
+          <div class="intro-photo-pair">
+            <img src="FoodItems-Images/Lassi.png" alt="Fresh Lassi" class="intro-photo">
+            <img src="FoodItems-Images/Paneer-Butter Masala.png" alt="Paneer Butter Masala" class="intro-photo">
+          </div>
+          <div class="intro-video-overlay">
+            <video id="intro-video" playsinline preload="metadata">
+              <source src="Videos/INTRODUCING (1).mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <button class="play-button" aria-label="Play kitchen introduction video">
+              <svg viewBox="0 0 64 64" width="64" height="64">
+                <circle cx="32" cy="32" r="32" fill="rgba(0,0,0,0.55)"></circle>
+                <polygon points="25,18 25,46 48,32" fill="#fff"></polygon>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- ===== End Kitchen Intro Video Banner ===== -->
       <div class="container">
         <ul>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Menu</a></li>
+          <li><a href="#skills">Extras</a></li>
         
         
-          <li><a href="#education">Education</a></li>
-          <li><a href="#leetcode">LeetCode</a></li>
-          <li><a href="#Achievement_Certification">Certifications</a></li>
-          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#education">Sweets</a></li>
+          <li><a href="#leetcode">Festivals</a></li>
+          <li><a href="#Achievement_Certification">Payment</a></li>
+          <li><a href="#about">About Us</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -38,160 +58,61 @@
     <section id="projects" class="card">
       <div class="container">
         
-        <h2>Projects</h2>
-        <h3>Click below for popular respositories</h3>
-        <button onclick="window.location.href='https://github.com/saurav-95-dev';" class="github-button">Visit my Github</button>
-       
-        <div class="project">
-          <h3>Automatic Voice Controlled News Application</h3>
+        <h2>HOME FOOD CORNER</h2>
+        <!-- <h3>Click below for Tiffin Service</h3>
+        <button onclick="window.location.href='https://github.com/saurav-95-dev';" class="github-button">View Tiffin Service</button> -->
+         
+        <h3>General Menu List</h3>
+        <H2>MAIN MENU</H2>
+        <div class="project" data-dish="Veg Manchurian" data-price="100(Half Plate), ₹180(Full Plate)" data-ingredients="Cabbage,Capsicum,Carrot,Garlic-Ginger,Soy Sauce,Cornflour,Onion, Sezwan Sauce">
+          <h3>Veg Manchurian</h3>
           <div class="preview">
-            <!-- Preview image or video -->
-            <img src="Screenshot 2024-04-14 at 2.36.44 AM.png" alt="Project Preview 1">
+            <img src="FoodItems-Images/Veg-Manchurian.png" alt="Veg Manchurian">
           </div>
           <div class="description">
-            <!-- Project description -->
-           
-            <p>Capable of providing latest news of user's interest from different sources alongwith the functionality of current weather status , Bitcoin prices , language translation and even Mathematical calculation ans small talks with AI whithin single page<br><br>(This Application is out of paid API subscription and the services are no longer available currently).<br>
-            <!-- Link to the project -->
-            <a href="https://saurav-dev-august21.netlify.app/">View Project</a>
+            <p>A crowd-favourite Indo-Chinese dish — crisp vegetable balls tossed in a tangy, garlicky Manchurian sauce.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing & Pricing</button>
           </div>
         </div>
 
-        <div class="project">
-          <h3>Locate HealthCare Centers & Hospitals with full fleged login system</h3>
+        <div class="project" data-dish="Paneer Butter Masala" data-price="140(Half Plate), 280₹(Full Plate)" data-ingredients="Paneer,Tomato Puree,Butter,Fresh Cream,Cashew-Makhana Paste,Garam Masala,Kasuri Methi">
+          <h3>Paneer Butter Masala</h3>
           <div class="preview">
-            <!-- Preview image or video -->
-            <img src="Screenshot 2024-04-14 at 2.40.07 AM.png" alt="Project Preview 2">
+            <img src="FoodItems-Images/Paneer-Butter Masala.png" alt="Paneer Butter Masala">
           </div>
           <div class="description">
-            <!-- Project description -->
-           
-            <p>With full fleged google Authentication system alongwith custom password login , the Application focus mainly to fetch the real time location of almost all hospitals of tier-1 cities.It can also fetch the current location of any random user who's logged into the application displaying Healthcare centers of his/her nearby location</p>
-          </div>
-          <div class="link">
-            <!-- Link to the project -->
-            <a href="https://saurabhdev-gmap-hospital.netlify.app/">View Project</a>
+            <p>Soft paneer cubes simmered in a rich, buttery tomato-cashew gravy — a classic North Indian favourite.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
           </div>
         </div>
-        <div class="project">
-          <h3>Premium Reactjs Start-up services</h3>
+        <div class="project" data-dish="Kadhai Paneer" data-price="120(Half Plate) , 240₹(Full Plate)" data-ingredients="Paneer,Onion,Tomato,Kadhai Masala,Coriander Leaves,Capsicum">
+          <h3>Kadhai Paneer</h3>
           <div class="preview">
-            <!-- Preview image or video -->
-            <img src="Screenshot 2024-04-14 at 2.47.04 AM.png" alt="Project Preview 2">
+            <img src="FoodItems-Images/Kadhai Paneer.png" alt="Kadhai Paneer">
           </div>
           <div class="description">
-            <!-- Project description -->
-           
-            <p>Developed a cutting-edge startup landing page using React.js, HTML ,CSS, boasting an eye-catching UI with captivating
-              custom animations alongwith integrated feature-rich sections and a custom video element.</p>
-          </div>
-          <div class="link">
-            <!-- Link to the project -->
-            <a href="https://nextjs-sauravdev-95.netlify.app/">View Project</a>
+            <p>Paneer and bell peppers tossed in a robust, spiced kadhai masala gravy with a hint of smokiness.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
           </div>
         </div>
-        <div class="project">
-          <h3>EdTech SaaS Multipage Website</h3>
+        <div class="project" data-dish="Paneer Curry" data-price="100(Half Plate) , 200₹(Full Plate)" data-ingredients="Paneer,Onion,Tomato,Ginger-Garlic Paste,Turmeric,Red Chilli Powder,Coriander Powder">
+          <h3>Normal Paneer</h3>
           <div class="preview">
-            <!-- Preview image or video -->
-            <img src="Screenshot 2024-04-14 at 3.13.07 AM.png" alt="Project Preview 2">
+            <img src="FoodItems-Images/Normal Paneer.png" alt="Paneer Curry">
           </div>
           <div class="description">
-            <!-- Project description -->
-           
-            <p>Tech Cohort for beginners with professional contact section with query sending , different course section , top tech mentors from IT companies alongwith frequently asked queries.</p>
-          </div>
-          <div class="link">
-            <!-- Link to the project -->
-            <a href="https://sauravdev2108edtech.netlify.app/">View Project</a>
+            <p>A simple, home-style paneer curry made the traditional way with everyday spices and a light gravy.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
           </div>
         </div>
-        <div class="project">
-          <h3>Meme-Generator</h3>
+         <div class="project" data-dish="Idli Sambhar" data-price="50 (Half plate), ₹100 (Full Plate)" data-ingredients="Idli Rice,Urad Dal,Toor Dal,Tamarind,Sambhar Masala,Mustard Seeds, Peanut, Coconut">
+          <h3>Idli Sambhar</h3>
           <div class="preview">
-            <!-- Preview image or video -->
-            <img src="Screenshot 2024-08-01 at 7.33.47 PM.png" alt="Project Preview 2">
+            <img src="FoodItems-Images/IdliSambhar.png" alt="Idli Sambhar">
           </div>
           <div class="description">
-            <!-- Project description -->
-           
-            <p> Build a multipage meme-generator react application using react routing.
-
-               Utilised hooks namely useState , useEffect , createRefs , useSearchParams etc .
-              
-              Utilized react draggable library to drag and move the meme-text.
-              
-              100% page responsive and fits on almost all devices and screens .
-              
-              Implemented Save button functionality to save meme on devices using exportComponentAsJPEG hook.
-              
-              Implemented a color selector button to change the text-color.</p>
-          </div>
-          <div class="link">
-            <!-- Link to the project -->
-            <a href="https://saurav-generate-meme.netlify.app/">View Project</a>
-          </div>
-        </div>
-        <div class="project">
-          <h3>Modern Currency App</h3>
-          <div class="preview">
-            <!-- Preview image or video -->
-            <img src="Screenshot 2024-08-01 at 7.40.19 PM.png" alt="Project Preview 2">
-          </div>
-          <div class="description">
-            <!-- Project description -->
-           
-            <p> A React application built using Vite capable of converting currency of several different countries.
-
-              with swap button functionality and 
-              
-              smooth scrolling options among large country lists.</p>
-          </div>
-          <div class="link">
-            <!-- Link to the project -->
-            <a href="https://saurabh-dev-currency-convertor.netlify.app/">View Project</a>
-          </div>
-          
-        </div>
-        
-        <div class="project">
-          <h3>Finance banking startup</h3>
-          <div class="preview">
-            <!-- Preview image or video -->
-            <img src="Screenshot 2024-08-01 at 7.58.08 PM.png" alt="Project Preview 2">
-          </div>
-          <div class="description">
-            <!-- Project description -->
-           
-            <p>Smooth Scrolling with 100% responsiveness in all device size.
-
-              Utilised Simple HTML and CSS with animations.
-              
-              Stunning sections consisting of comprehensive description.
-              
-              100% page responsive and fits on almost all devices and screens.
-            </p>
-          </div>
-          <div class="link">
-            <!-- Link to the project -->
-            <a href="https://saurav21finance-banking.netlify.app/">View Project</a>
-          </div>
-        </div>
-        <div class="project">
-          <h3>Melodify</h3>
-          <div class="preview">
-            <!-- Preview image or video -->
-            <img src="synapse.png" alt="Project Preview 2">
-          </div>
-          <div class="description">
-            <!-- Project description -->
-           
-            <p>Song Media player with Recommendation engine alongwith speech recognition functionality with the ability to download and share the song and light/dark theme feature via React context. 
-            </p>
-          </div>
-          <div class="link">
-            <!-- Link to the project -->
-            <a href="https://main--melodify-saurav.netlify.app/">View Project</a>
+            <p>Soft steamed idlis served with hot, tangy sambhar and coconut chutney — a wholesome South Indian breakfast.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
           </div>
         </div>
         
@@ -203,122 +124,72 @@
 
     <section id="skills" class="card">
       <div class="container">
-        <h2>Technologies and Tools</h2>
+        <h2>EXTRAS</h2>
         <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>HTML5</h3>
-              <img src="html.png" class="html-img" alt="Skill 1 Logo">
-              <p>Proficient working with different tags and intergrating tailwind css for custom animation </p>
-            </div>
+          <div class="project" data-dish="Dahi Bada" data-price="45(Half Plate), 90₹(Full Plate)" data-ingredients="Urad Dal,Yogurt,Tamarind Chutney,Mint Chutney">
+          <h3>Dahi Bada</h3>
+          <div class="preview">
+            <img src="FoodItems-Images/Dahi-bada.png" alt="Dahi Bada">
+          </div>
+          <div class="description">
+            <p>Soft lentil dumplings soaked in chilled, spiced yogurt and topped with tangy-sweet chutneys.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
+          </div>
+        </div>
           
           </div>
         </div>
         <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>Cascading Style Sheet </h3>
-              <img src="css.png" alt="Skill 2 Logo">
-              <p>Proficient in buiding stunning UI/UX with 100% responsive design for various screen size.</p>
-            </div>
-           
+          <div class="project" data-dish="Lassi" data-price="70" data-ingredients="Fresh Yogurt,Milk,Sugar,Cardamom,Almonds,Saffron">
+          <h3>Lassi</h3>
+          <div class="preview">
+            <img src="FoodItems-Images/Lassi.png" alt="Lassi">
           </div>
+          <div class="description">
+            <p>Thick, chilled, creamy yogurt drink topped with nuts and a touch of saffron — refreshing and rich.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
+          </div>
+        </div>
+           
+          
         </div>
         <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>Javascript </h3>
-              <img src="javascript.png" alt="Skill 2 Logo">
-              <p>Expierence in working with DOM mainpulation , promises , closures , currying etc.</p>
-            </div>
-           
+          <div class="project" data-dish="Samosa" data-price="10/Piece" data-ingredients="Potato,Green Peas,Garam Masala,All-Purpose Flour,Green Chilli">
+          <h3>Samosa</h3>
+          <div class="preview">
+            <img src="FoodItems-Images/Samosa.png" alt="Samosa">
           </div>
+          <div class="description">
+            <p>Crispy, golden pastry stuffed with a spiced potato-pea filling — a beloved evening snack.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
+          </div>
+        </div>
         </div>
         <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>React </h3>
-              <img src="react.png" alt="Skill 2 Logo">
-              <p>Material UI , working with Components , hooks , intergrating Authentication etc .</p>
-            </div>
-           
+         <div class="project" data-dish="Upma" data-price="60" data-ingredients="Semolina (Suji),Mustard Seeds,Curry Leaves,Onion,Green Chilli,Carrot,Peas,Capsicum,Peanut">
+          <h3>Upma</h3>
+          <div class="preview">
+            <img src="FoodItems-Images/Upma.png" alt="Upma">
           </div>
+          <div class="description">
+            <p>A light, savoury semolina breakfast dish tempered with mustard seeds, curry leaves, and fresh vegetables.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
+          </div>
+        </div>
         </div>
         <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>Redux Toolkit </h3>
-              <img src="data:image/png;base64,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" alt="Skill 2 Logo">
-              <p> Experience in creating store setup, creating reducers, Writing immutable update logic, Creating state slices, and Managing states ,  
-                 Redux Thunk for asynchronous logics  .</p>
-            </div>
-           
+          <div class="project" data-dish="Poha" data-price="60" data-ingredients="Flattened Rice (Poha),Onion,Mustard Seeds,Curry Leaves,Turmeric,Peanuts,Lemon">
+          <h3>Poha</h3>
+          <div class="preview">
+            <img src="FoodItems-Images/Poha .png" alt="Poha">
+          </div>
+          <div class="description">
+            <p>Light and tangy flattened rice tempered with mustard seeds, peanuts, and a squeeze of fresh lemon.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
           </div>
         </div>
-        <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>Firebase</h3> 
-              <img src="data:image/jpeg;base64,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" alt="Skill 2 Logo">
-              <p>"Firebase for enabling authentication , quering , storing and data retrieval"</p>
-            </div>
-           
-          </div>
         </div>
-        <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>Linux</h3>
-              <img src="linux.png" alt="Skill 2 Logo">
-              <p>Bash scripting , worked with shell and handling devopes and administration tasks.</p>
-            </div>
-           
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>Git</h3>
-              <img src="github (1).png" alt="Skill 2 Logo">
-              <p> Proficient in version control system , managing code changes in projects. Can track changes, collaborate on code, and manage project versions, ensuring seamless teamwork and code integrity."</p>
-            </div>
-           
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>Prompt Engineering & GPT4</h3>
-              <img src="artificial-intelligence.png" alt="Skill 2 Logo">
-              <p>Strong Grasp of prompt engineering, leveraging cutting-edge AI models like GPT to generate high-quality content. Can scraft effective prompts that elicit desired responses from AI models, ensuring they produce accurate and contextually relevant outputs."</p>
-            </div>
-           
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>Ubuntu</h3> 
-              <img src="ubuntu.png" alt="Skill 2 Logo">
-              <p>From command-line operations to software installations and system configurations, I can efficiently utilize Ubuntu for various tasks. My familiarity with Ubuntu extends to troubleshooting and resolving system issues, ensuring smooth and reliable performance."</p>
-            </div>
-           
-          </div>
-        </div>
-        
        
-        <div class="skill">
-          <div class="skill-box">
-            <div class="skill-details">
-              <h3>Core Computer Science</h3>
-              <img src="https://as2.ftcdn.net/v2/jpg/05/88/24/39/1000_F_588243965_kzsRKqXnGNFPYuOi30mmt8Inn190rbVw.jpg" alt="Skill 2 Logo">
-              <img src="https://cdn-icons-png.flaticon.com/128/2772/2772128.png" alt="Skill 2 Logo">
-              <img src="https://cdn-icons-png.flaticon.com/128/1589/1589642.png" alt="Skill 2 Logo">
-              <p>Possess a solid understanding of fundamental principles such as algorithms, data structures, and computational theory. With proficiency in these areas, I can effectively analyze and solve complex problems, develop efficient algorithms, and optimize software performance.</p>
-            </div>
-           
-          </div>
-        </div>
         <!-- Add more skills as needed -->
       </div>
     </section>
@@ -326,113 +197,145 @@
     
     
     <section id="education" class="card education-card">
-      <div class="container">
-        <h2>Education</h2>
-        <img src="Screenshot 2024-04-14 at 9.54.42 AM.png" alt="Skill 2 Logo">
-        <div class="education-details">
-          <p>Bachelor of Technology in IT</p>
-          <p>Noida Institute of Engineering and Technology, Graduated 2023</p>
-          <!-- Add more education details as needed -->
+      <div class="skill">
+        <H2>SWEETS</H2>
+          <div class="project" data-dish="Ice Cream" data-price="50(Individual) , 220₹(Family Pack)" data-ingredients="Full Cream Milk,Sugar,Fresh Cream,Vanilla/Flavour of Choice,Dry Fruits">
+          
+            <h3>Ice Cream</h3>
+          <div class="preview">
+            <img src="FoodItems-Images/Icecream.png" alt="Ice Cream">
+          </div>
+          <div class="description">
+            <p>Creamy, homemade ice cream made the traditional way — rich, smooth, and full of flavour.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
+          </div>
         </div>
-      </div>
+        </div>
+        <div class="skill">
+          <div class="project" data-dish="Sewai (Vermicelli Kheer)" data-price="75" data-ingredients="Vermicelli (Sewai),Milk,Sugar,Cardamom,Cashews,Raisins,Desi-Ghee">
+          <h3>Sewai (Vermicelli Kheer)</h3>
+          <div class="preview">
+            <img src="FoodItems-Images/Sewai.png" alt="Sewai">
+          </div>
+          <div class="description">
+            <p>Sweet vermicelli simmered in milk with cardamom and dry fruits — a festive favourite dessert.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
+          </div>
+        </div>
+        </div>
+      <div class="skill">
+          <div class="project" data-dish="Kheer" data-price="70" data-ingredients="Basmati Rice,Full Cream Milk,Sugar,Cardamom,Saffron,Almonds,Pistachios,Desi-Ghee">
+          <h3>Gajar Kheer</h3>
+          <div class="preview">
+            <img src="FoodItems-Images/Kheer.png" alt="Kheer">
+          </div>
+          <div class="description">
+            <p>Slow-cooked rice pudding made with milk, saffron, and nuts — comforting and classic.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
+          </div>
+        </div>
+        </div>
     </section>
     
     
     <section id="leetcode" class="card">
-      <div class="container">
-        <h2>LeetCode</h2>
-       <div> <a href="https://leetcode.com/The_Murderer/" style="margin-bottom: auto;">MyLeetcode</a></div>
-        <img src="Screenshot 2024-04-14 at 2.10.10 PM.png" alt="Skill 2 Logo">
-       
-        <div class="batch">
-          <div class="batch-box">
-            
-            <div class="batch-details">
-              <h3>Overall</h3>
-              <img src="Screenshot 2024-08-01 at 10.08.14 PM.png" class="batch" alt="Batch 1 Image">
-              <p>Solved 200+ problems</p><br>
-              <p>(Owning 5 active batches)</p>
-            </div>
+      <H2>FESTIVALS</H2>
+      <div class="skill">
+          <div class="project" data-dish="Lauki Halwa" data-price="100 per Pack" data-ingredients="Bottle Gourd (Lauki),Khoya/Milk,Sugar,Ghee,Cardamom,Cashews,Almonds,Rasins,Desi-Ghee">
+          <h3>Lauki Halwa</h3>
+          <div class="preview">
+            <img src="FoodItems-Images/LaukiHalwa.png" alt="Lauki Halwa">
+          </div>
+          <div class="description">
+            <p>Grated bottle gourd slow-cooked with milk, ghee, and nuts into a rich festive dessert.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
           </div>
         </div>
-        <div class="batch-1">
-          <div class="batch-box">
-            
-            <div class="batch-details">
-              <h3>Batch Top 4.2%</h3>
-              <img src="Screenshot 2024-04-14 at 2.32.57 PM.png"  alt="Batch 1 Image" >
-              
-              <p>Awarded for being in top 4.2% leetcoders 100 Days Batch</p>
-            </div>
+        </div>
+        <div class="skill">
+          <div class="project" data-dish="Sabudana Tikki" data-price="120(Made in Desi-Ghee) per Pack" data-ingredients="Sabudana (Sago),Boiled Potato,Roasted Peanuts,Green Chilli,Sendha Namak,Coriander Leaves , Desi Ghee">
+          <h3>Sabudana Tikki</h3>
+          <div class="preview">
+            <img src="FoodItems-Images/SabudanaTikki.png" alt="Sabudana Tikki">
+          </div>
+          <div class="description">
+            <p>Crispy fasting-friendly sago and potato patties — a perfect vrat snack with a crunchy bite.</p>
+            <button class="key-ingredients-btn">Key Ingredients & Pricing</button>
           </div>
         </div>
-        <div class="batch-2">
-          <div class="batch-box">
-            
-            <div class="batch-details">
-              <h3>Batch Top 6.9%</h3>
-              <img src="Screenshot 2024-04-14 at 2.33.23 PM.png" alt="Batch 2 Image" >
-              <p>Awarded for being in top 6.9% leetcoders 50 Days Batch</p>
-            </div>
-          </div>
         </div>
-      
-        <!-- Add more batches as needed -->
-      </div>
     </section>
     
     
     <section id="Achievement_Certification" class="card">
       <div class="container">
-        <h2>Achievement & Certification</h2>
-        <div class="certification">
-          <div class="certification-box">
-          
-            <div class="certification-details">
-              <h3>ICACITE-2023</h3>
-              <img src="ICACITENEW.jpg" alt="Certification 1 Image">
-              <p>Selected as a Team Lead for presenting Major Project in ICACITE-2023 by Galgotia college of Engineering</p>
-            </div>
-          </div>
+        <h2>PAYMENT</h2>
+        <div class="container">
+        <h3 class="section-title" style="font-size: medium;">BUY ME A COFFEE</h3>
+        <h3 class="section-title" style="font-size: medium;">OR</h3>
+        <h3 class="section-title" style="font-size: medium;">PAY HERE FOR YOUR SELECTED MEAL</h3>
+        <button class="payment-btn" onclick="showQRCode()">Make Payment</button>
+        <div id="qr-code-container" class="qr-code-container hidden">
+          <img id="qr-code-img" src="de33a83e-b07d-4fdb-bf88-da4355fda728.jpg" alt="QR Code">
         </div>
-        <div class="certification">
-          <div class="certification-box">
-           
-            <div class="certification-details">
-              <h3>Windows Virtualization C2C</h3>
-              <img src="Screenshot 2024-05-04 at 8.27.44 AM.png" alt="Certification 2 Image">
-              <p>Received certification of validation of professional domain training from DXC Technology in Windows Virtualization (ITO+ITIL)</p>
+    
+        <div id="payment-details" class="payment-details hidden">
+          <h3 class="details-title">Payment Details</h3>
+          <form id="payment-details-form">
+            <input type="text" id="name" class="input-field" placeholder="Your Name" required>
+            <input type="email" id="email" class="input-field" placeholder="Your Email (Optional)" required>
+            <input type="file" id="payment-screenshot" class="input-file" accept="image/*" onchange="previewImage(event)">
+            <div id="image-preview" class="hidden">
+              <img id="preview-img" src="#" alt="Payment Screenshot">
             </div>
-          </div>
+            <button type="button" class="submit-btn" onclick="submitPaymentDetails()">Submit Payment Details</button>
+          </form>
         </div>
-        <div class="certification">
-          <div class="certification-box">
-           
-            <div class="certification-details">
-              <h3>Prompt Engineering with GPT4</h3>
-              <img src="chatgpt.png" alt="Certification 2 Image">
-              <p>Mastered output refining through prompt engineering via 1-shot , 2-shot , 3-shot technique alongwith other AI tools namely Midjouney , DALL-E etc.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Add more certifications and achievements as needed -->
       </div>
     </section>
     
     
 
     
-    <section id="hobbies" class="card hobbies-card">
+    <section id="about" class="card about-card">
       <div class="container">
-        <h2>Hobbies</h2>
-        <div class="hobbies-details">
-          <p>Reading Books </p>
-          <p>Hiking</p>
-          <p>Travelling</p>
-         <p>Bike Riding </p>
-          <p>Play Guitar , Play Piano</p>
-          <p>Film making</p>
-          <!-- Add more hobbies as needed -->
+        <h2>About Us</h2>
+ 
+        <div class="about-wrapper">
+          <div class="about-photo">
+            <img src="FoodItems-Images/Beige Orange Circle Catering Service Logo.png" alt="Nimmi's Kitchen homemade food">
+          </div>
+ 
+          <div class="about-content">
+            <p class="about-text">
+              Nimmi's Kitchen started with one simple idea: home-style food made the way it's
+              meant to be — fresh, flavourful, and full of love. What began as cooking for
+              family and friends has grown into a kitchen that now serves daily tiffins, festive
+              specials, and catering for every occasion.
+            </p>
+            <p class="about-text">
+              Every dish is prepared in small batches using fresh ingredients and traditional
+              recipes, with no shortcuts and no preservatives — just honest, homemade taste
+              delivered straight to your table.
+            </p>
+ 
+            <div class="about-highlights">
+              <div class="about-highlight">
+                <h3>100%</h3>
+                <p>Homemade Recipes</p>
+              </div>
+              <div class="about-highlight">
+                <h3>Fresh</h3>
+                <p>Daily Ingredients</p>
+              </div>
+              <div class="about-highlight">
+                <h3>Made</h3>
+                <p>With Love</p>
+              </div>
+            </div>
+ 
+            <a href="https://wa.me/7985665273" class="github-button about-cta">Order on WhatsApp</a>
+          </div>
         </div>
       </div>
     </section>
@@ -440,7 +343,7 @@
     <section id="contact" class="card">
       <div class="container">
         <h2>Contact</h2>
-        <a href="tel:798-566-5273" style="color: rgb(32, 31, 31);">Phone-number</a><BR>
+        <a href="tel:798-566-5273" style="color: rgb(32, 31, 31);">7985665273</a><BR>
         <a href="mailto:sauravdev2000@gmail.com" style="color: rgb(32, 31, 31);">sauravdev2000@gmail.com or </a>  <a href="mailto:devsaurabh086@gmail.com" style="color: rgb(32, 31, 31);" >devsaurabh086@gmail.com </a>
         <form id="contact-form">
           <input type="text" name="name" placeholder="Your Name" required>
@@ -451,39 +354,19 @@
       </div>
     </section>
 
-    <section id="upi-payment" class="card">
-      <div class="container">
-        <h3 class="section-title" style="font-size: medium;">BUY ME A COFFEE</h3>
-        <h3 class="section-title" style="font-size: medium;">OR</h3>
-        <h3 class="section-title" style="font-size: medium;">JOIN MY PAYED BOOTCAMP TO ACCESS FULL RESOURCES</h3>
-        <button class="payment-btn" onclick="showQRCode()">Make Payment</button>
-        <div id="qr-code-container" class="qr-code-container hidden">
-          <img id="qr-code-img" src="de33a83e-b07d-4fdb-bf88-da4355fda728.jpg" alt="QR Code">
-        </div>
-    
-        <div id="payment-details" class="payment-details hidden">
-          <h3 class="details-title">Payment Details</h3>
-          <form id="payment-details-form">
-            <input type="text" id="name" class="input-field" placeholder="Your Name" required>
-            <input type="email" id="email" class="input-field" placeholder="Your Email" required>
-            <textarea id="message" class="input-field textarea-field" placeholder="Your Message"></textarea>
-            <label for="payment-screenshot" class="file-label">
-              <span class="upload-btn">Upload Payment Screenshot</span>
-              <input type="file" id="payment-screenshot" class="input-file" accept="image/*" onchange="previewImage(event)">
-            </label>
-            <div id="image-preview" class="hidden">
-              <img id="preview-img" src="#" alt="Payment Screenshot">
-            </div>
-            <button type="button" class="remove-btn" onclick="removeImage()">Remove</button>
-            <button type="button" class="submit-btn" onclick="submitPaymentDetails()">Submit Payment Details</button>
-          </form>
-        </div>
-      </div>
-    </section>
-    
-
-
   </main>
+
+  <!-- ===== Key Ingredients & Pricing Modal ===== -->
+  <div id="ingredients-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <h3 id="modal-dish-name"></h3>
+      <p class="modal-price">Price: <span id="modal-dish-price"></span></p>
+      <h4>Key Ingredients & Pricing</h4>
+      <ul id="modal-ingredients-list"></ul>
+    </div>
+  </div>
+  <!-- ===== End Key Ingredients & Pricing Modal ===== -->
 
   <footer>
     <div class="footer">
@@ -493,25 +376,24 @@
           <h3>Saurabh Dev</h3>
         </div>
         <div class="profile-links">
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
+          <a href="#projects">Menu</a>
+          <a href="#skills">Extras</a>
+          <a href="#education">Sweets</a>
+          <a href="#leetcode">Festivals</a>
+          <a href="#Achievement_Certification">Payment</a>
+          <a href="#about">About Us</a>
           <a href="#contact">Contact</a>
-          <a href="#education">Education</a>
-          <a href="#hobbies">Hobbies</a>
-          <a href="#leetcode">LeetCode</a>
-          <a href="#Achievement_Certification">Certifications</a>
         </div>
         <div class="social-links">
-          <a href="https://twitter.com/Saurav_dev21"><img src="Screenshot 2024-04-13 at 5.51.42 PM.png" alt="Twitter"></a>
-          <a href="https://www.linkedin.com/in/saurabh-dev-9120aa236/"><img src="Screenshot 2024-04-13 at 4.00.49 PM.png" alt="Linkedin"></a>
-          <a href="https://github.com/saurav-95-dev"><img src="Screenshot 2024-04-13 at 4.02.29 PM.png" alt="Github"></a>
+          <a href="https://twitter.com/Saurav_dev21"><img src="FoodItems-Images/Screenshot 2024-04-13 at 3.58.45 PM.png" alt="Twitter"></a>
+          <a href="https://www.linkedin.com/in/saurabh-dev-9120aa236/"><img src="FoodItems-Images/Screenshot 2024-04-13 at 4.00.49 PM.png" alt="Linkedin"></a>
+          <a href="https://github.com/saurav-95-dev"><img src="FoodItems-Images/Screenshot 2024-04-13 at 4.02.29 PM.png" alt="Github"></a>
           <!-- Add more social media icons and links as needed -->
         </div>
       </div>
     </div>
   </footer>
   
-  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/qrcode.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/qrcode.min.js"></script>
   <script src="script.js"></script>
 
